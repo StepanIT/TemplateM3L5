@@ -1,4 +1,6 @@
 @import "normalize.css";
 @import "global-style.css";
 @import "header.css";
-@import "";
+@import "main.css";
+@import "contacts.css";
+@import "footer.css";
