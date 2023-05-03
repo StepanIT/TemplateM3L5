@@ -1,7 +1,5 @@
 .main {
-  min-height: 596px;
   background-color: var(--color-white-1);
-  padding-top: 70px;
 }
 
 .main__block-text {

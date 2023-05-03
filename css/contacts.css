@@ -1,10 +1,8 @@
 .contacts {
-  min-height: 621px;
-  background-image: url(..//img/contacts/contacts__background.jpg);
+  background-image: url(..//img/contacts/Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 70px;
 }
 
 .contacts__header {

@@ -1,13 +1,10 @@
 .header {
-  min-height: 732px;
-  
-  background-image: url(..//img/header/header__background.jpg);
+  background-image: url(..//img/header/Background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background: var(--color-grey-85);
-  
   padding-top: 40px;
+  padding-bottom: 120px;
 }
 
 .header__menu {
@@ -92,7 +89,6 @@
   line-height: 23px;
   text-align: center;
   color: var(--color-white);
-  margin-bottom: 70px;
 }
 
 @media (max-width: 1080px) {

@@ -1,14 +1,13 @@
 .footer {
-  min-height: 158px;
   background-color: var(--color-darkgrey);
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .footer__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 45px;
-  padding-bottom: 45px;
 }
 
 .footer__logo {
@@ -38,7 +37,7 @@
   line-height: 17px;
 }
 
-.footer__signature-small {
+.hidden-block {
   display: none;
 }
 
@@ -75,7 +74,7 @@
     display: none;
   }
 
-  .footer__signature-small {
+  .hidden-block {
     display: flex;
     width: 100%;
     min-height: 47px;
@@ -85,6 +84,11 @@
     font-size: 12px;
     line-height: 17px;
     margin: 0 auto;
+  }
+
+  .hidden-block__text {
+    font-size: 12px;
+    line-height: 17px;
     opacity: 0.5;
   }
 }
@@ -93,16 +97,19 @@
     display: none;
   }
 
-  .footer__signature-small {
+  .hidden-block {
     display: flex;
     width: 100%;
     min-height: 47px;
     background-color: var(--color-darkgrey-1);
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+  }
+
+  .fhidden-block__text {
     font-size: 12px;
     line-height: 17px;
-    margin: 0 auto;
     opacity: 0.5;
   }
 
