@@ -1,9 +1,11 @@
 .header {
   min-height: 732px;
+  
   background-image: url(..//img/header/header__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background: var(--color-grey-85);
   
   padding-top: 40px;
   margin-bottom: 70px;
@@ -16,13 +18,10 @@
   margin-bottom: 120px;
 }
 
-.header__logo {
+.header__logo svg>ellipse {
   width: 68px;
   height: 68px;
-}
-
-.header__tel {
-
+  fill: var(--color-blue);
 }
 
 .header__tel-number {
@@ -31,7 +30,6 @@
   font-size: 23.85px;
   line-height: 28px;
   text-align: center;
-  color: #FFFFFF;
 }
 
 .header__tel-text {
@@ -40,8 +38,7 @@
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #FFFFFF;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid var(--color-white-50);
 }
 
 .header__content {
@@ -58,8 +55,8 @@
   font-size: 52px;
   line-height: 61px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.86);
   margin-bottom: 35px;
+  color: var(--color-white-86);
 }
 
 .header__text {
@@ -68,20 +65,20 @@
   font-size: 22px;
   line-height: 31px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.75);
   margin-bottom: 90px;
+  color: var(--color-white-75);
 }
 
 .header__btn {
   width: 200px;
   height: 48px;
-  background-color: #15A9CB;
-  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  background-color: var(--color-blue);
+  box-shadow: 0px 4px 25px var(--color-blue-30);
   border-radius: 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--color-white);
 }

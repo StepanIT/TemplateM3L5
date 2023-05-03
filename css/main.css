@@ -1,6 +1,6 @@
 .main {
   margin-bottom: 70px;
-  background-color:  #F9F9F9;
+  background-color: var(--color-white-1);
 }
 
 .main__block-text {
@@ -10,7 +10,6 @@
   align-items: center;
   padding-top: 70px;
   margin: 0 auto 50px;
-  
 }
 
 .main__title {
@@ -19,7 +18,7 @@
   font-size: 35px;
   line-height: 41px;
   text-align: center;
-  color: #383A4C;
+  color: var(--color-grey);
   margin-bottom: 25px;
 }
 
@@ -30,6 +29,7 @@
   line-height: 26px;
   text-align: center;
   margin-bottom: 35px;
+  color: var(--color-grey);
 }
 
 .main__text {
@@ -39,6 +39,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
+  color: var(--color-grey);
 }
 
 .main__list {
@@ -58,15 +59,14 @@
 .main__item-circle {
   width: 122px;
   height: 122px;
-  border: 1px solid #23C7EC;
+  border: 1px solid var(--color-lightblue);
   border-radius: 50%;
-  background-color: #23C7EC;
+  background-color: var(--color-lightblue);
   font-style: normal;
   font-weight: 500;
   font-size: 57px;
   line-height: 122px;
   text-align: center;
-  color: #FFFFFF;
   margin: 0 auto;
 }
 
@@ -76,5 +76,5 @@
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #383A4C;
+  color: var(--color-grey);
 }

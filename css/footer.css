@@ -1,10 +1,9 @@
 .footer {
   min-height: 158px;
-  background-color: #2F324B;;
+  background-color: var(--color-darkgrey);
 }
 
 .footer__menu {
-
   display: flex;
   justify-content: space-between;
   padding-top: 45px;
@@ -12,14 +11,14 @@
 }
 
 .footer__logo {
-  
   display: flex;
   gap: 20px;
 }
 
-.footer__logo-icon {
+.footer__logo-icon svg>ellipse {
   width: 68px;
   height: 68px;
+  fill: var(--color-blue);
 }
 
 .footer__logo-text {
@@ -28,8 +27,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
-  color: #FFFFFF;
-
 }
 
 .footer__signature {
@@ -37,11 +34,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
-  color: #FFFFFF;
-}
-
-.footer__tel {
-
 }
 
 .footer__tel-number {
@@ -50,7 +42,6 @@
   font-size: 23.85px;
   line-height: 28px;
   text-align: center;
-  color: #FFFFFF;
 }
 
 .footer__tel-text {
@@ -59,6 +50,5 @@
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: #FFFFFF;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
+  border-bottom: 1px solid var(--color-white);
+}    

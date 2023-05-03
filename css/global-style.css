@@ -5,6 +5,22 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --color-white: #FFFFFF;
+  --color-white-1: #F9F9F9;
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-white-86: rgba(255, 255, 255, 0.86);
+  --color-white-80: rgba(255, 255, 255, 0.8);;
+  --color-white-75: rgba(255, 255, 255, 0.75);;
+  --color-grey: #383A4C;
+  --color-darkgrey: #2F324B;
+  --color-grey-85: rgba(47, 50, 75, 0.85);
+  --color-blue: #15A9CB;
+  --color-lightblue: #23C7EC;
+  --color-blue-30: rgba(21, 169, 203, 0.3);
+  --color-darkblue: #4A76A8;
+}
+
 *,
 *::before,
 *::after {
@@ -15,6 +31,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
+  color: var(--color-white);
 }
 
 
