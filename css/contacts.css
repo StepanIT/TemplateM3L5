@@ -109,6 +109,16 @@
     font-size: 16px;
     line-height: 17px;
   }
+
+  .contacts__input {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .contacts__input {
+    font-size: 20px;
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -137,5 +147,10 @@
     width: 174px;
     height: 38px;
     margin-bottom: 30px;
+  }
+
+  .contacts__input {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
