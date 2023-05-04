@@ -1,10 +1,29 @@
 .header {
-  background-image: url(..//img/header/Background.jpg);
+  position: relative;
+  min-height: 732px;
+  width: 100%;
+  background-image: url(..//img/header/header__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 40px;
   padding-bottom: 120px;
+}
+
+.header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-grey-85);
+  z-index: 2;
+}
+
+.header__inner {
+  position: relative;
+  z-index: 3;
 }
 
 .header__menu {
