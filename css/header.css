@@ -7,7 +7,6 @@
   background-size: cover;
   background-position: center;
   padding-top: 40px;
-  padding-bottom: 120px;
 }
 
 .header:after {
@@ -152,6 +151,10 @@
   .header__text {
     font-size: 18px;
     line-height: 25px;
+    margin-bottom: 60px;
+  }
+
+  .header__btn {
     margin-bottom: 60px;
   }
 }
