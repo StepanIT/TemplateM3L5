@@ -126,7 +126,7 @@
  
   .header__tel-number {
     font-size: 21px;
-    line-height: 25px;
+    line-height: 37px;
   }
 
   .header__tel-text {
@@ -149,9 +149,10 @@
   }
 
   .header__text {
+    width: 754px;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 57px;
   }
 
   .header__btn {
