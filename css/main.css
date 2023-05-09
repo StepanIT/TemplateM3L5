@@ -197,16 +197,21 @@
 
 
 @media (max-width: 350px) {
+  .main {
+    padding-top: 31px;
+    padding-bottom: 60px;
+  }
+
   .main__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
   }
 
   .main__subtitle {
     font-size: 16px;
     line-height: 19px;
-    margin-bottom: 26px;
+    margin-bottom: 29px;
   }
 
   .main__subtitle span:before {
@@ -231,7 +236,7 @@
 
   .main__item {
     max-width: 180px;
-    gap: 26px;
+    gap: 18px;
   }
   
   .main__item-circle {
@@ -244,11 +249,7 @@
   .main__item-text {
     font-size: 18px;
     line-height: 25px;
-}
-
-.main__list {
-  grid-template: 40px;
-  margin-bottom: 60px;
+    padding-top: 3px;
 }
 }
   
