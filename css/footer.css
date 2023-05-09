@@ -152,6 +152,11 @@
 }
 
 @media (max-width: 380px) {
+  .footer {
+    padding-top: 22px;
+    padding-bottom: 27px;
+  }
+
   .footer__logo-icon {
     width: 30px;
     height: 30px;

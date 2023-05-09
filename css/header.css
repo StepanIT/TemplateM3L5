@@ -226,6 +226,7 @@
   .header {
     min-height: 441px;
     padding-top: 15px;
+    background-position: -60px 0px;
   }
 
   .header__logo {
