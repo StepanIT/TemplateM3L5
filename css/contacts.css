@@ -176,20 +176,31 @@
 }
 
 @media (max-width: 430px) {
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+
   .contacts__form-inputs {
     margin-bottom: 45px;
   }
 
   .contacts__title {
+    width: 251px;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    padding-top: 6px;
+    white-space: pre-line;
+    padding-left: 38px;
+    margin-bottom: 15px;
   }
   
   .contacts__subtitle {
+    width: 290px;
     font-size: 12px;
     line-height: 14px;
     margin-bottom: 35px;
+    padding-left: 0;
   }
 
   .contacts__text {
@@ -200,11 +211,19 @@
   .contacts__btn {
     width: 174px;
     height: 38px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contacts__btn::first-letter {
+    text-transform: uppercase;
   }
 
   .contacts__input {
+    width: 290px;
+    height: 28px;
     font-size: 14px;
     line-height: 16px;
+    padding-left: 18px;
   }
 }
