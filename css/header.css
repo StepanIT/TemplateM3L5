@@ -149,7 +149,7 @@
   }
 
   .header__text {
-    width: 754px;
+    max-width: 754px;
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 57px;
