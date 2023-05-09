@@ -110,7 +110,7 @@
   .main__title {
     font-size: 32px;
     line-height: 38px;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
   }
 
   .main__subtitle {
@@ -121,18 +121,18 @@
 
   .main__subtitle span:before {
       width: 40px;
-      right: 80px;
+      right: 74px;
   }
   
   .main__subtitle span:after {
     width: 40px;
-    left: 80px; 
+    left: 74px; 
   }
 
   .main__text {
     max-width: 666px;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 21px;
   }
 
   .main__item {
