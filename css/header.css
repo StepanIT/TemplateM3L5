@@ -219,6 +219,10 @@
 
 
 @media (max-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+
   .header {
     min-height: 441px;
     padding-top: 15px;
@@ -259,7 +263,7 @@
   .header__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .header__text {
@@ -276,7 +280,7 @@
     text-align: center;
     margin-bottom: 90px;
     color: var(--color-white-75);
-    margin-bottom: 54px;
+    margin-bottom: 53px;
   }
 
   .header__btn {
