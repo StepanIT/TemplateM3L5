@@ -64,8 +64,34 @@
 }
 
 @media (max-width: 1080px) {
+  .footer {
+    padding-top: 39px;
+  }
+
+  .footer__logo {
+    gap: 19px;
+  }
+
+  .footer__logo-icon {
+    width: 60px;
+    height: 60px;
+  }
+
   .footer__signature {
+    width: 164px;
     opacity: 0.5;
+    margin-right: 21px;
+  }
+
+  .footer__tel-number {
+    width: 186px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .footer__tel-text {
+    font-size: 13px;
+    line-height: 15px;
   }
 }
 
@@ -92,6 +118,7 @@
     opacity: 0.5;
   }
 }
+
 @media (max-width: 490px) {
   .footer__signature {
     display: none;
